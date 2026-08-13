@@ -1,26 +1,81 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.pb-20 button {
+    font-size: 24px;
+    background-color: orange;
+    width: 190px;
+    font-weight: 500;
+    color: white;
+    height: 60px;
+    border-radius: 50px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.pb-20 button:hover {
+    background-color: rgb(211, 141, 10);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.a {
+    font-family: Helvetica Neue;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.a1 {
+    font-family: Helvetica Neue;
+    color: rgb(104, 100, 100);
+}
+
+.b {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+
+.c input {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.432);
+    height: 40px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+}
+
+.x{
+    color: darkorange;
+    font-weight: bolder;
+}
+
+.j {
+    width: 55%;
+    color: darkorange;
+}
+
+.j1 {
+    font-family: italic;
+    color: #7f8c8d;
+}
+
+.j2 {
+    padding-top: 10%;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+.q {
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: justify;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.u {
+    padding-right: 26%;
+    font-size: 1.8em;
+    color: #2980b9;
+    margin-top: 25px;
+}
+
+.u1 {
+    padding-right: 16%;
+    font-size: 1.8em;
+    color: #2980b9;
+    margin-top: 25px;
 }
